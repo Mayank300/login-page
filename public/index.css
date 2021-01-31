@@ -1,0 +1,294 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 600%;
+  animation: gradient 15s ease infinite;
+  background-repeat: no-repeat, repeat;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.top-banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-text {
+  display: none;
+}
+
+.top-banner:hover + .top-text {
+  display: block;
+  font-size: 100px;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 50px;
+  margin: 20px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.div11 {
+  width: 24%;
+  height: 300px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Helvetica Neue";
+  background-color: #fd940a;
+  background-image: radial-gradient(
+    circle,
+    #f9a72b 0%,
+    #fa9026 70%,
+    #fb6c1f 100%
+  );
+}
+
+.div22 {
+  width: 24%;
+  height: 300px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Helvetica Neue";
+  background-color: #fd940a;
+  background-image: radial-gradient(
+    circle,
+    #f9a72b 0%,
+    #fa9026 70%,
+    #fb6c1f 100%
+  );
+}
+
+.div33 {
+  width: 24%;
+  height: 300px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Helvetica Neue";
+  background-color: #fd940a;
+  background-image: radial-gradient(
+    circle,
+    #f9a72b 0%,
+    #fa9026 70%,
+    #fb6c1f 100%
+  );
+}
+
+.div44 {
+  width: 24%;
+  height: 300px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Helvetica Neue";
+  background-color: #fd940a;
+  background-image: radial-gradient(
+    circle,
+    #f9a72b 0%,
+    #fa9026 70%,
+    #fb6c1f 100%
+  );
+}
+
+.arrow1 {
+  border: solid yellow;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 7px;
+}
+
+.right1 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+  border: solid yellow;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 7px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.side-bar-text1 {
+  width: 14%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 80px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.side-bar-text1:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 500ms;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+  background-color: transparent;
+}
+
+.side-bar-text2 {
+  width: 14%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 80px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.side-bar-text2:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 500ms;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+  background-color: transparent;
+}
+
+.side-bar-text3 {
+  width: 14%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 80px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.side-bar-text3:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 500ms;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+  background-color: transparent;
+}
+
+.side-bar-text4 {
+  width: 14%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 80px;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+}
+
+.side-bar-text4:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 500ms;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1002/289/190/colors-colorful-3d-geometric-wallpaper-preview.jpg");
+  background-color: transparent;
+}
+
+/* a link  */
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 30px;
+  transition: all 500ms;
+  font-size-adjust: 20px;
+  color: black;
+  background-color: transparent;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.menu-bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-bar-text1 {
+  position: relative;
+  left: 1%;
+}
+
+.menu-bar-text2 {
+  position: relative;
+  left: 2%;
+}
+
+.menu-bar-text3 {
+  position: relative;
+  left: 3%;
+}
+
+.menu-bar-text4 {
+  position: relative;
+  left: 4%;
+}
